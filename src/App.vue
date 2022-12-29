@@ -4,7 +4,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <div id="app">
-        <HelloWorld msg="Github actions deploying this site" />
+        <HelloWorld msg="Can I still use regular github pages?" />
   </div>
 </template>
 
