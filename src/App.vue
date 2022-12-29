@@ -4,7 +4,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <div id="app">
-        <HelloWorld msg="You taught me secert language I can't speak with anyone else ):" />
+        <HelloWorld msg="Github actions deploying this site" />
   </div>
 </template>
 
