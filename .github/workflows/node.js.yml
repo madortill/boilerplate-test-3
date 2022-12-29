@@ -51,11 +51,16 @@ jobs:
         run: |
           npm ci
           npm run build --if-present
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      # - name : upload-artifact
+      # - uses: actions/upload-artifact@v3
+      #   with:
+      #     name: my-artifact
+      #     path: ./_site
+      - name: Upload artifact to gh-pages
+        uses: actions/upload-pages-artifact@v1
         with:
           name: vue-app
-          path: .
+          path: ./dist
 
   # Deployment job
   deploy:
